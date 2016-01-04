@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Formulario para maquetas</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> 
+		<script src="js/mostrarJson.js" type="text/javascript"></script> 
+	</head>
+
+	<body>
+		<div class="letrero">
+		<h2>Formulario para maquetas</h2>
+	</div>
+		<div class="cuadro">
+			<form id="maquetaForm" method="post" action="#">
+
+					<fieldset id="maestro">
+
+						<legend>Maestro</legend>
+						<label>Nombre de reporte</label>
+						<input id="nombre" name="nombre" type="text" placeholder="NombreSinEspacios">
+
+						<label>SELECT:</label>
+						<textarea id="select" name="select" rows="3" cols="50" placeholder="nombre_campo"></textarea>
+
+						<label>FROM:</label>
+						<textarea id="from" name="from" rows="3" cols="50" placeholder="nombre_tabla"></textarea>
+
+						<label>WHERE:</label>
+						<input id="where" name="where" type="text" placeholder="nombre_campo=condición">
+
+						<label>ORDER BY:</label>
+						<input id="orderby" name="order" type="text" placeholder="nombre_campo ASC|DESC">
+
+						<label>GROUP BY:</label>
+						<input id="groupby" name="groupby" type="text" placeholder="nombre_campo">
+
+					</fieldset>
+					
+					<fieldset id="detalle">
+							
+						<legend>Detalle</legend>
+						<div class="izquierda">
+							<label>Leyenda:</label>
+							<input id="leyenda" name="leyenda" type="text" placeholder="Nombre de columna">
+
+							<label>Metatipo:</label>
+							<select name="metatipo">
+								<option>Text</option>
+								<option>Textw</option>
+								<option>Date</option>
+								<option>Num</option>
+								<option>Datetime</option>
+								<option>Moneda</option>
+								<option>Checkbox</option>
+								<option>Boton</option>
+								<option>Invisible</option>
+								<option>Noselect</option>
+							</select>
+
+							<label>Ancho de columna:</label>
+							<input id="ancho_columna" name="ancho_columna" type="number" placeholder="0 ems">
+
+							<label>Llave primaria:</label>
+							<input id="llave_primaria" name="llave_primaria" type="text" placeholder="nombre_campo">
+
+							<label>Tipo de filtro:</label>
+							<select name="rango">
+								<option></option>
+								<option>lils</option>
+								<option>igual</option>
+							</select>
+
+							<label>Columna de inicio:</label>
+							<input id="columna_inicio" name="columna_inicio" type="text">
+							
+							<label>Renglón de inicio:</label>
+							<input id="renglon_inicio" name="renglon_inicio" type="text">
+						</div>
+
+						<div class="derecha">
+							<label>Alineación:</label>
+							<select name="alineacion">
+								<option>left</option>
+								<option>right</option>
+								<option>center</option>
+							</select>
+
+							<label>Nombre en SQL:</label>
+							<input id="nombre_sql" name="nombre_sql" type="text" placeholder="nombre_campo">
+
+							<label>Filtro por default:</label>
+							<input id="formato_filtro" name="formato_filtro" type="text" placeholder="nombre_campo=condición">
+
+							<label>Acción vinculada:</label>
+							<select id="accion_vinculada">
+								<option> </option>
+								<option>Eliminar</option>
+								<option>Actualizar</option>
+							</select>
+
+							<label>Totalizar columna:</label>
+							<select id="totalizar">
+								<option>F</option>
+								<option>T</option>
+							</select>
+							<label>Editable:</label>
+							<select id="editable">
+								<option>F</option>
+								<option>T</option>
+							</select>
+
+						</div>
+
+						<div class="botones">
+							<img src="img/agregar.png" alt="Agregar" />
+							<img src="img/eliminar.png" alt="Eliminar" />
+						</div>
+						
+					</fieldset>
+						
+				<div>
+					<input type="submit" id="btnDel" value="Enviar" />
+				</div>
+			</form>
+			
+		</div>
+		<div class="letrero">
+			<h2>---Json---</h2>
+		</div>
+		<div class="letrero">
+			<h4>Maestro</h4>
+		</div>
+		<div class="result" id="result1">
+
+		</div>
+		<div class="letrero">
+			<h4>Detalle</h4>
+		</div>
+		<div class="result" id="result2">
+			
+		</div>
+
+	</body>
+</html>
