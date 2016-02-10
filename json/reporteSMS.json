@@ -1,0 +1,74 @@
+{
+  "id_tabla": "reporteSMS", 
+  "url": "", 
+  "div_table": "div_reporteSMS", 
+  "visible_table": "T", 
+  "url2edit": "", 
+  "columns": [
+    {
+      "bVisible": "F", 
+      "sTitle": "Fecha", 
+      "filtrodef": "", 
+      "tipo": "NOSELECT", 
+      "campo": "", 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "Fecha", 
+      "filtrodef": "solo_hoy", 
+      "tipo": "date", 
+      "campo": "fecha", 
+      "rango": "lils", 
+      "sWidth": 10, 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "No. de móvil", 
+      "filtrodef": "", 
+      "tipo": "text", 
+      "campo": "movil", 
+      "rango": "igual", 
+      "sWidth": 10, 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "Usuario", 
+      "filtrodef": "", 
+      "tipo": "text", 
+      "campo": "usuario", 
+      "rango": "igual", 
+      "sWidth": 16, 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "Nombre de litigante", 
+      "filtrodef": "", 
+      "tipo": "text", 
+      "campo": "nombre", 
+      "sWidth": 22, 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "E-mail", 
+      "filtrodef": "", 
+      "tipo": "text", 
+      "campo": "correo", 
+      "sWidth": 16, 
+      "editable": ""
+    }, 
+    {
+      "bVisible": "T", 
+      "sTitle": "Expedientes con actividad", 
+      "filtrodef": "", 
+      "tipo": "text", 
+      "campo": "mensaje", 
+      "sWidth": 22, 
+      "editable": ""
+    }
+  ]
+}

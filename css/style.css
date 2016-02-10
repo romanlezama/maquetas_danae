@@ -116,3 +116,7 @@ legend {
 .letrero{
 	text-align: center;
 }
+
+div.box {
+	height: auto;
+}

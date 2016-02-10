@@ -1,0 +1,14 @@
+{
+	"cnd" : {
+		"condiciones":"Fecha hasta 10-02-2016, y Fecha desde 10-02-2016",
+		"encabezados":["Fecha","Fecha","No. de móvil","Usuario","Nombre de litigante","E-mail","Expedientes con actividad"]
+	},
+	"registros" : 5,
+	"data" : [
+		[null,1455099302.44,"5512943638","agefesis","JULIO DANTE HERNÁNDEZ MONTES","agefesis@me.com","SICOR\nActualizaciones en:\n52PIC 637/2007 3R\nhttp://sicor.poderjudicialdf.gob.mx"],
+		[null,1455099302.7,"55-33247274","licenciadozuniga","JAVIER ANTONIO ZUÑIGA OLIVAS","licenciadojavierzuniga@gmail.com","SICOR\nActualizaciones en:\n64PIC 1109/2014 1R\nhttp://sicor.poderjudicialdf.gob.mx"],
+		[null,1455099303.174,"55-32331804","svabogados","MARCO ANTONIO ALCANTARA CORTÉS","m.alcantara@svabogados.com","SICOR\nActualizaciones en:\n15PIC 145/2011 1R\n2PIF 2118/2014 1R\n47PIC 1042/2014 1R\n57PIC 578/2015 1R\n50PC 1210/2015 3R\nhttp://sicor.poderjudicialdf.gob.mx"],
+		[null,1455099303.487,"55-24076595","efernandez81","ENRIQUE FERNANDEZ CHAVIRA","efernandex81@gmail.com","SICOR\nActualizaciones en:\n27PIC 1557/2010 1R\n42PIF 1157/2009 1R\nhttp://sicor.poderjudicialdf.gob.mx"],
+		[null,1455099303.68,"55-41441418","mirtavazquez","MIRTA GABRIELA VAZQUEZ GUTIERREZ","mirtavazquez@prodigy.net.mx","SICOR\nActualizaciones en:\n14PIC 772/2012 1R\nhttp://sicor.poderjudicialdf.gob.mx"]
+	]
+}
